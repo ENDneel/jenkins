@@ -1,0 +1,7 @@
+Change the parent POM of your plugin:
+  <parent>
+    <groupId>org.jenkins-ci.plugins</groupId>
+    <artifactId>plugin</artifactId>
+    <version>4.31</version> <!-- or whatever the newest version available is -->
+    <relativePath />
+  </parent>
